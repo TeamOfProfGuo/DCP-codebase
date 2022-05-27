@@ -23,7 +23,7 @@ git clone https://github.com/TeamOfProfGuo/DCP-codebase && cd DCP-codebase
 ## Preparation
 
 ### Pascal-5i dataset
-**Note:** Make sure the path in *misc/prepare_dataset.sh* works for you.
+**Note:** Make sure the path in `misc/prepare_dataset.sh` works for you.
 ```shell
 sh misc/prepare_dataset.sh
 ```
