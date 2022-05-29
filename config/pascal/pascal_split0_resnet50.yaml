@@ -57,6 +57,6 @@ Method:
   aux_weight: 1.0
 
 Test_Finetune:
-  weight:               # load weight for fine-tuning or testing (such as train_epoch_85_0.6318.pth)
+  weight: train_epoch_88_0.6300.pth
 
 

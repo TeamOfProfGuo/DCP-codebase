@@ -25,7 +25,7 @@ git clone https://github.com/TeamOfProfGuo/DCP-codebase && cd DCP-codebase
 ### Pascal-5i dataset
 **Note:** Make sure the path in `misc/prepare_dataset.sh` works for you.
 ```shell
-sh misc/prepare_dataset.sh
+bash misc/prepare_dataset.sh
 ```
 
 ### Pretrained models
@@ -41,8 +41,12 @@ Modify the `data_root` in the `.yaml` files under `config/`.
 
 ## Run experiment
 **Note:** Modify the path in slurm scripts (as needed) before you start.
-```
+```shell
+# training
 sbatch train.slurm pascal split0 DCP resnet50
+
+# testing
+sbatch test.slurm pascal split0 DCP resnet50
 ```
 
 
